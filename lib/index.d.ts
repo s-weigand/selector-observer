@@ -3,6 +3,7 @@ export default class SelectorObserver {
   disconnect(): void
   observe: typeof observe
 }
+export declare function getDocumentObserver(): SelectorObserver
 
 export declare function observe<T extends Element>(
   selector: string,
